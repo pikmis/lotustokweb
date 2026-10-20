@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LotusTok — мод TikTok в стиле Material 3</title>
+<meta name="description" content="LotusTok — бесплатный мод TikTok для Android: оформление Material 3, папки в личных сообщениях, редактор интерфейса, скачивание без водяного знака, плагины.">
+<meta name="theme-color" content="#f8f9ff">
+<link rel="icon" href="assets/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,slnt,wdth,wght@8..144,-10..0,25..151,100..1000&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,slnt,wdth,wght,ROND@6..144,-10..0,25..151,1..1000,0..100&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT@1,9..144,400..900,100&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="topbar">
+  <a class="brand" href="#top" aria-label="LotusTok">
+    <span class="petals" aria-hidden="true"></span><b class="wm"><span class="wm-a">Lotus</span><span class="wm-b">Tok</span></b>
+  </a>
+  <nav class="navpill" aria-label="Разделы">
+    <a href="#features">Функции</a>
+    <a href="#tour">Настройки</a>
+    <a href="#updates">Обновления</a>
+    <a href="#faq">FAQ</a>
+  </nav>
+  <div class="topbar-actions">
+    <button class="icon-btn" id="themeBtn" aria-label="Сменить тему">
+      <svg viewBox="0 0 24 24"><path d="M12 3a9 9 0 1 0 9 9c0-.46-.04-.92-.1-1.36a5.39 5.39 0 0 1-4.4 2.26 5.4 5.4 0 0 1-3.14-9.8c-.44-.06-.9-.1-1.36-.1Z"/></svg>
+    </button>
+    <a class="btn btn-filled btn-sm" href="#download">Скачать</a>
+  </div>
+</header>
+
+<main id="top">
+
+<!-- HERO -->
+<section class="hero">
+  <div class="halo" data-shape="cookie12" aria-hidden="true"></div>
+  <div class="hero-text">
+    <h1 class="display reveal">TikTok,<br>который <em>расцвёл</em></h1>
+    <p class="lead reveal">Бесплатный мод TikTok для Android в стиле Material&nbsp;3.</p>
+    <div class="hero-cta reveal">
+      <a class="btn btn-filled btn-lg" href="#download">
+        <svg viewBox="0 0 24 24"><path d="M5 20h14v-2H5v2Zm7-3 6-6-1.41-1.41L13 13.17V4h-2v9.17L7.41 9.59 6 11l6 6Z"/></svg>
+        Скачать APK
+      </a>
+      <a class="btn btn-tonal btn-lg" href="#features">Что умеет</a>
+    </div>
+  </div>
+</section>
+
+
+<!-- FEATURES BENTO -->
+<section class="section" id="features">
+  <div class="section-head reveal">
+    <span class="eyebrow">Функции</span>
+    <h2 class="headline">Всё, чего не хватало в TikTok</h2>
+    <p class="lead">Каждая функция включается отдельным переключателем в настройках мода.</p>
+  </div>
+
+  <div class="bento">
+    <article class="card c-primary span-2 reveal">
+      <div class="card-text">
+        <span class="sh-icon" data-shape="cookie9"><svg viewBox="0 0 24 24"><path d="M12 22A10 10 0 0 1 2 12 10 10 0 0 1 12 2c5.5 0 10 4 10 9a6 6 0 0 1-6 6h-1.8c-.3 0-.5.2-.5.5 0 .1.1.2.1.3.4.5.6 1 .6 1.6 0 1.4-1.1 2.6-2.4 2.6Zm-5.5-9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Zm3-4a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Zm5 0a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Zm3 4a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/></svg></span>
+        <h3>Лента в стиле Material&nbsp;3</h3>
+        <p>Подложка под описание, колонка кнопок справа, капсула вкладок, круги у LIVE и поиска. Каждый элемент включается по отдельности.</p>
+        <p class="muted">Цвета телефона: палитра берётся из обоев (Android 12+), и TikTok перекрашивается под неё.</p>
+      </div>
+      <div class="cut-stack">
+        <img class="cut" src="assets/cut/03_elementy_lenty.webp" alt="Элементы ленты Material 3" loading="lazy">
+      </div>
+    </article>
+
+    <article class="card c-primary-soft reveal">
+      <span class="sh-icon" data-shape="clover4"><svg viewBox="0 0 24 24"><path d="M10 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-8l-2-2Z"/></svg></span>
+      <h3>Папки в личных сообщениях</h3>
+      <p>Свои папки рядом с «Основные / Запросы». Чат добавляется долгим нажатием → «Добавить в папку».</p>
+      <div class="cut-stack mini">
+        <img class="cut" src="assets/cut/11_lichnye_soobsheniya.webp" alt="Настройки личных сообщений" loading="lazy">
+        <img class="cut" src="assets/cut/23_papka_dialog.webp" alt="Окно «Добавить в папку»" loading="lazy">
+      </div>
+    </article>
+
+    <article class="card c-surface reveal">
+      <span class="sh-icon" data-shape="sunny"><svg viewBox="0 0 24 24"><path d="M3 17.25V21h3.75L17.8 9.94l-3.75-3.75L3 17.25ZM20.7 7.04a1 1 0 0 0 0-1.41l-2.33-2.34a1 1 0 0 0-1.41 0l-1.83 1.83 3.75 3.75 1.82-1.83Z"/></svg></span>
+      <h3>Редактор интерфейса</h3>
+      <p>Нажмите на любой элемент TikTok, чтобы скрыть, сдвинуть, изменить размер или цвет.</p>
+      <div class="cut-stack mini">
+        <img class="cut" src="assets/cut/04_redaktor_interfeisa.webp" alt="Открыть редактор" loading="lazy">
+      </div>
+    </article>
+
+    <article class="card c-surface reveal">
+      <span class="sh-icon" data-shape="cookie6"><svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20ZM4 12c0-1.85.63-3.55 1.69-4.9L16.9 18.31A7.92 7.92 0 0 1 4 12Zm14.31 4.9L7.1 5.69A7.92 7.92 0 0 1 20 12c0 1.85-.63 3.55-1.69 4.9Z"/></svg></span>
+      <h3>Чистая лента</h3>
+      <p>Скрытие рекламы, прямых эфиров, фото, историй и рекомендаций. Фильтр хештегов и блокировка авторов.</p>
+      <ul class="chips"><li>Реклама</li><li>LIVE</li><li>Фото</li><li>Истории</li><li>#хештеги</li></ul>
+    </article>
+
+    <article class="card c-surface reveal">
+      <span class="sh-icon" data-shape="pill"><svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm6.93 6h-2.95a15.65 15.65 0 0 0-1.38-3.56A8.03 8.03 0 0 1 18.93 8ZM12 4.04c.83 1.2 1.48 2.53 1.91 3.96h-3.82c.43-1.43 1.08-2.76 1.91-3.96ZM4.26 14a7.8 7.8 0 0 1 0-4h3.38a16.5 16.5 0 0 0 0 4H4.26Zm.82 2h2.95c.32 1.25.78 2.45 1.38 3.56A7.99 7.99 0 0 1 5.08 16Zm2.95-8H5.08a7.99 7.99 0 0 1 4.33-3.56C8.81 5.55 8.35 6.75 8.03 8ZM12 19.96A14.1 14.1 0 0 1 10.09 16h3.82A14.1 14.1 0 0 1 12 19.96ZM14.34 14H9.66a14.7 14.7 0 0 1 0-4h4.68a14.7 14.7 0 0 1 0 4Zm.25 5.56c.6-1.11 1.06-2.31 1.38-3.56h2.95a8.03 8.03 0 0 1-4.33 3.56ZM16.36 14a16.5 16.5 0 0 0 0-4h3.38a7.8 7.8 0 0 1 0 4h-3.38Z"/></svg></span>
+      <h3>Смена региона</h3>
+      <p>Подмена страны SIM, оператора и MCC/MNC. Язык интерфейса не меняется.</p>
+    </article>
+
+
+    <article class="card c-surface span-3 wide reveal">
+      <div class="wide-main">
+        <span class="sh-icon" data-shape="flower"><svg viewBox="0 0 24 24"><path d="M5 20h14v-2H5v2Zm7-3 6-6-1.41-1.41L13 13.17V4h-2v9.17L7.41 9.59 6 11l6 6Z"/></svg></span>
+        <div>
+          <h3>Сохраняйте что угодно</h3>
+          <p>Видео без водяного знака с выбором качества. Аватарки, стикеры и картинки из комментариев — в галерею. Комментарии копируются в буфер обмена.</p>
+        </div>
+      </div>
+      <ul class="chips big"><li>Без водяного знака</li><li>Выбор качества</li><li>Аватарки</li><li>Стикеры</li><li>Копирование комментариев</li></ul>
+    </article>
+
+    <article class="card c-surface reveal">
+      <span class="sh-icon" data-shape="softburst"><svg viewBox="0 0 24 24"><path d="M13.5.67s.74 2.65.74 4.8c0 2.06-1.35 3.73-3.41 3.73-2.07 0-3.63-1.67-3.63-3.73l.03-.36C5.21 7.51 4 10.62 4 14a8 8 0 0 0 16 0C20 8.61 17.41 3.8 13.5.67ZM11.71 19c-1.78 0-3.22-1.4-3.22-3.14 0-1.62 1.05-2.76 2.81-3.12 1.77-.36 3.6-1.21 4.62-2.58.39 1.29.59 2.65.59 4.04 0 2.65-2.15 4.8-4.8 4.8Z"/></svg></span>
+      <h3>Серии сами</h3>
+      <p>Автоматическое поддержание серий (стриков) в переписке — огонёк не погаснет.</p>
+    </article>
+
+    <article class="card c-surface reveal">
+      <span class="sh-icon" data-shape="cookie12"><svg viewBox="0 0 24 24"><path d="M20.5 11H19V7a2 2 0 0 0-2-2h-4V3.5a2.5 2.5 0 0 0-5 0V5H4a2 2 0 0 0-2 2v3.8h1.5a2.7 2.7 0 0 1 0 5.4H2V20a2 2 0 0 0 2 2h3.8v-1.5a2.7 2.7 0 0 1 5.4 0V22H17a2 2 0 0 0 2-2v-4h1.5a2.5 2.5 0 0 0 0-5Z"/></svg></span>
+      <h3>Плагины</h3>
+      <p>Магазин плагинов <code>.mtp</code>. Плагин работает внутри мода — ставьте то, чему доверяете.</p>
+    </article>
+
+    <article class="card c-surface reveal">
+      <span class="sh-icon" data-shape="clover8"><i class="eye"></i></span>
+      <h3>Анти-выгорание</h3>
+      <p>Защита OLED-экрана: затемнение статичных элементов в ленте и на видео.</p>
+    </article>
+  </div>
+</section>
+
+<!-- REPOSTS -->
+<section class="section split" id="reposts">
+  <div class="split-text reveal">
+    <span class="eyebrow">Мой профиль</span>
+    <h2 class="headline">Удалить все репосты — одной кнопкой</h2>
+    <p class="lead">Мод считает ваши репосты, спрашивает подтверждение и отменяет их по одному через собственный запрос TikTok — с паузой и кнопкой «Отмена».</p>
+    <ol class="steps">
+      <li><span class="step-n" data-shape="cookie4">1</span><div><b>Найдите настройку</b><p>Вкладка «Профиль» → раздел «Мой профиль».</p></div></li>
+      <li><span class="step-n" data-shape="cookie6">2</span><div><b>Подтвердите</b><p>Окно «Вы точно согласны?» покажет, сколько у вас репостов.</p></div></li>
+      <li><span class="step-n" data-shape="cookie9">3</span><div><b>Ждите</b><p>Волнистый индикатор Material 3 покажет прогресс.</p></div></li>
+    </ol>
+  </div>
+  <div class="trio reveal">
+    <img class="cut" src="assets/cut/05_moi_profil_repost.webp" alt="Раздел «Мой профиль»" loading="lazy">
+    <img class="cut" src="assets/cut/07_repost_podtverzhdenie.webp" alt="Подтверждение удаления репостов" loading="lazy">
+    <div class="loader-pill"><svg class="wavy" viewBox="0 0 48 48"><path pathLength="100" d=""/></svg><span>Считаем ваши репосты…</span><b>Отмена</b></div>
+  </div>
+</section>
+
+<!-- SETTINGS TOUR -->
+<section class="section tour" id="tour">
+  <div class="section-head reveal">
+    <span class="eyebrow">Внутри мода</span>
+    <h2 class="headline">Настройки, разложенные по полочкам</h2>
+    <p class="lead">Поиск по настройкам, подсказки, резервная копия — и всё в Material 3.</p>
+  </div>
+  <div class="tour-body">
+    <div class="segmented reveal" role="tablist" id="tourTabs"></div>
+    <div class="tour-stage reveal">
+      <div class="tour-copy">
+        <span class="sh-icon big" id="tourShape" data-shape="cookie9"></span>
+        <h3 id="tourTitle"></h3>
+        <p id="tourText"></p>
+        <div class="thumbs" id="tourThumbs"></div>
+      </div>
+      <div class="phone phone-sm">
+        <div class="phone-screen light" id="tourScreen"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- UPDATES -->
+<section class="section" id="updates">
+  <div class="section-head reveal">
+    <span class="eyebrow">Обновления</span>
+    <h2 class="headline">Что нового</h2>
+  </div>
+  <article class="release reveal">
+    <header>
+      <span class="ver" data-shape="sunny">1.0</span>
+      <div><h3><span class="wm wm-inline"><span class="wm-a">Lotus</span><span class="wm-b">Tok</span></span> 1.0.0</h3><p class="muted">20 октября 2026 · первый публичный релиз</p></div>
+    </header>
+    <div class="release-list">
+      <h4><span class="tag tag-new">Что нового</span></h4>
+      <ul>
+        <li>Добавлены папки в личных сообщениях: «Добавить в папку» в меню долгого нажатия на чат</li>
+        <li>Добавлен редактор интерфейса: скрывайте, двигайте и перекрашивайте любой элемент TikTok</li>
+        <li>Добавлена лента в стиле Material 3, каждый элемент включается отдельно</li>
+        <li>Нижняя панель, входящие и профиль в стиле Material 3</li>
+        <li>Добавлена волнистая линия прогресса видео</li>
+        <li>Добавлено скрытие панелей в ленте: LIVE, поиск, вкладки, описание, ник и дата</li>
+        <li>Добавлены стрелки вместо лайка и дизлайка под комментариями</li>
+        <li>Добавлены формат даты под автором и своё название «Входящие»</li>
+        <li>Добавлено удаление всех своих репостов (бета)</li>
+      </ul>
+    </div>
+  </article>
+</section>
+
+<!-- FAQ -->
+<section class="section" id="faq">
+  <div class="section-head reveal">
+    <span class="eyebrow">FAQ</span>
+    <h2 class="headline">Частые вопросы</h2>
+  </div>
+  <div class="faq">
+    <details class="reveal"><summary>Это бесплатно?</summary><p>Да. LotusTok бесплатный, исходный код открыт под GPL-3.0 с дополнительными условиями.</p></details>
+    <details class="reveal"><summary>Где открыть настройки мода?</summary><p>В настройках TikTok появится строка «Настройки LotusTok» с иконкой лепестков.</p></details>
+    <details class="reveal"><summary>Работает вход через Google?</summary><p>Обход входа через Google сохранён, но Google-вход в TikTok может работать не у всех. Надёжнее входить по номеру или почте.</p></details>
+    <details class="reveal"><summary>Безопасны ли плагины?</summary><p>Плагин работает внутри мода без песочницы. Ставьте только те плагины, которым доверяете.</p></details>
+    <details class="reveal"><summary>Как обновлять мод?</summary><p>Мод сам проверяет новые версии и напоминает о них. Обновление ставится прямо из настроек, раздел «О проекте».</p></details>
+    <details class="reveal"><summary>На чём основан LotusTok?</summary><p>Основа — мод MargyT 2.0.5. LotusTok продолжает его: Material 3, папки, редактор и многое другое.</p></details>
+  </div>
+</section>
+
+<!-- DOWNLOAD -->
+<section class="section" id="download">
+  <div class="cta reveal">
+    <div class="cta-shape" data-shape="cookie12"></div>
+    <span class="petals xl" aria-hidden="true"></span>
+    <h2 class="headline">Скачайте <span class="wm wm-inline"><span class="wm-a">Lotus</span><span class="wm-b">Tok</span></span></h2>
+    <p class="lead">Версия 1.0.0 · Android · TikTok 47.1.16</p>
+    <div class="cta-btns">
+      <a class="btn btn-onprimary btn-lg" href="#" data-todo="apk">
+        <svg viewBox="0 0 24 24"><path d="M5 20h14v-2H5v2Zm7-3 6-6-1.41-1.41L13 13.17V4h-2v9.17L7.41 9.59 6 11l6 6Z"/></svg>Скачать APK</a>
+      <a class="btn btn-outline-on btn-lg" href="https://t.me/LotusTok" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24"><path d="M9.78 18.65l.28-4.23 7.68-6.92c.34-.31-.07-.46-.52-.19L7.74 13.3 3.64 12c-.88-.25-.89-.86.2-1.3l15.97-6.16c.73-.33 1.43.18 1.15 1.3l-2.72 12.81c-.19.91-.74 1.13-1.5.71L12.6 16.3l-1.99 1.93c-.23.23-.42.42-.83.42Z"/></svg>Канал в Telegram</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="brand"><span class="petals" aria-hidden="true"></span><b class="wm"><span class="wm-a">Lotus</span><span class="wm-b">Tok</span></b></div>
+  <p class="muted">Неофициальный мод. Не связан с TikTok и ByteDance. Основа — MargyT. GPL-3.0 с доп. условиями.</p>
+  <nav><a href="https://t.me/LotusTok" target="_blank" rel="noopener">Telegram</a><a href="#faq">FAQ</a><a href="#updates">Изменения</a></nav>
+</footer>
+
+<div class="lightbox" id="lightbox" hidden><img alt=""></div>
+<script src="main.js"></script>
+</body>
+</html>
